@@ -1,0 +1,44 @@
+﻿@model FirstWebApp.Models.ProductModel;
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <title></title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse" style="background-color:black;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/Home" style="color:azure">Inventory Management</a>
+            </div>
+
+        </div>
+    </nav>
+    <div class="container">
+        <h4>Edit Product</h4>
+        <div class="col-md-5">
+            @using (Html.BeginForm()) { 
+            <form asp-action="Edit" asp-controller ="Home" class="form" method="Post">
+                <div class="form-group">
+                    <input asp-for="Name" name="Name" id="Name" class="form-control" type="text" placeholder="Name" value="@Model.Name" />
+                </div>
+                <div class="form-group">
+                    <input asp-for="Price" name="Price" id="Price" class="form-control" type="number" placeholder="Price" value="@Model.Price" />
+                </div>
+                <div class="form-group">
+                    <input asp-for="Quantity" name="Quantity" id="Quantity" class="form-control" type="number" placeholder="Quantity" value="@Model.Quantity" />
+                </div>
+                <div class="form-group">
+                    <input asp-for="Type" name="Type" id="Type" class="form-control" type="text" placeholder="Type" value="@Model.Type" />
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary" value="Update" formaction="@Url.Action("Edit")"/>
+                   
+                </div>
+                
+            </form>
+            }
+        </div>
+    </div>
+</body>
+</html>

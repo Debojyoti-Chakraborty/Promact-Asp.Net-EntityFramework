@@ -1,0 +1,40 @@
+﻿@model Microsoft.AspNetCore.Http.IFormCollection;
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <title></title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse" style="background-color:black;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/Home" style="color:azure">Inventory Management</a>
+            </div>
+
+        </div>
+    </nav>
+    <div class="container">
+        <h4>Add New Product</h4>
+        <div class="col-md-5">
+            <form action="/Home/Add" class="form" method="post">
+                <div class="form-group">
+                    <input name="Name" class="form-control" type="text" placeholder="Name" />
+                </div>
+                <div class="form-group">
+                    <input name="Price" class="form-control" type="number" placeholder="Price" />
+                </div>
+                <div class="form-group">
+                    <input name="Quantity" class="form-control" type="number" placeholder="Quantity" />
+                </div>
+                <div class="form-group">
+                    <input name="Type" class="form-control" type="text" placeholder="Type" />
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary" value="Add" />
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

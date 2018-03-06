@@ -1,0 +1,11 @@
+C:\Users\debojyoti\desktop\asp.net\FirstWebApp\FirstWebApp\bin\Debug\netcoreapp2.0\FirstWebApp.deps.json
+C:\Users\debojyoti\desktop\asp.net\FirstWebApp\FirstWebApp\bin\Debug\netcoreapp2.0\FirstWebApp.runtimeconfig.json
+C:\Users\debojyoti\desktop\asp.net\FirstWebApp\FirstWebApp\bin\Debug\netcoreapp2.0\FirstWebApp.runtimeconfig.dev.json
+C:\Users\debojyoti\desktop\asp.net\FirstWebApp\FirstWebApp\bin\Debug\netcoreapp2.0\FirstWebApp.dll
+C:\Users\debojyoti\desktop\asp.net\FirstWebApp\FirstWebApp\bin\Debug\netcoreapp2.0\FirstWebApp.pdb
+C:\Users\debojyoti\desktop\asp.net\FirstWebApp\FirstWebApp\obj\Debug\netcoreapp2.0\FirstWebApp.csprojResolveAssemblyReference.cache
+C:\Users\debojyoti\desktop\asp.net\FirstWebApp\FirstWebApp\obj\Debug\netcoreapp2.0\FirstWebApp.csproj.CoreCompileInputs.cache
+C:\Users\debojyoti\desktop\asp.net\FirstWebApp\FirstWebApp\obj\Debug\netcoreapp2.0\FirstWebApp.AssemblyInfoInputs.cache
+C:\Users\debojyoti\desktop\asp.net\FirstWebApp\FirstWebApp\obj\Debug\netcoreapp2.0\FirstWebApp.AssemblyInfo.cs
+C:\Users\debojyoti\desktop\asp.net\FirstWebApp\FirstWebApp\obj\Debug\netcoreapp2.0\FirstWebApp.dll
+C:\Users\debojyoti\desktop\asp.net\FirstWebApp\FirstWebApp\obj\Debug\netcoreapp2.0\FirstWebApp.pdb

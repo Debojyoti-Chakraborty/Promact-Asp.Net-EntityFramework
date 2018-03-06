@@ -1,0 +1,33 @@
+﻿@model FirstWebApp.Models.ProductModel;
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <title></title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse" style="background-color:black;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/Home" style="color:azure">Inventory Management</a>
+            </div>
+
+        </div>
+    </nav>
+    <div class="container">
+        <h4>Update Item</h4>
+        <div class="col-md-5">
+            <form action="/Home/Update" class="form" method="post">
+                <div class="form-group">
+                    <input class="form-control" name="Name" type="text" placeholder="Item Name" />
+                </div>
+                <div class="form-group">
+                    <input class="btn btn-primary" name="Name" type="submit" value="Update" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
